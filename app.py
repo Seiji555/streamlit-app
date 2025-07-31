@@ -3,7 +3,7 @@ import numpy as np
 import plotly.express as px
 
 # 小さめのタイトル（h3相当）
-st.markdown("<h3 style='text-align: center; color: black;'>ボタンで再描画：サイン波グラフ</h3>", unsafe_allow_html=True)
+st.markdown("<h3 style='text-align: center; color: black;'>サイン波グラフ</h3>", unsafe_allow_html=True)
 
 factor = st.slider("係数", 0.1, 5.0, 1.0)
 
